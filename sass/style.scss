@@ -1,0 +1,180 @@
+$font:'Roboto', sans-serif;
+$colorh1: white;
+$colorh2: grey;
+$naranja: #f98825;
+
+.contenedor{
+	max-width: 1200px;
+	text-align: center;
+	margin:auto;
+}
+
+body{
+	background: black;
+	font-family: $font;
+
+}
+
+header{
+	color: $colorh2;
+	nav{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background: black;
+			border-bottom: 1px solid grey;
+		div{
+			maxwidth: 10%;
+
+			img{
+			width: 100%;
+			}
+		}
+		ul{
+			display: flex;
+			
+			li{
+				padding: 0 10px;
+				box-sizing: border-box;
+				list-style: none;
+			}
+		}
+		
+	}
+
+	.divheader{
+		padding-top: 150px;
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	h1{
+		color: $colorh1;
+		font-size: 50px;
+		font-family: $font;
+		font-weight:bold;
+	}
+
+	h2{
+		color: $colorh2;
+		font-family: $font;
+		font-weight: 400;
+		width: 600px;
+		margin: auto;
+	}
+
+	.boton{
+		color: $colorh1;
+		background: #f98825;
+		padding: 15px;
+ 		text-decoration: none;
+ 		font-weight: bold;
+		width: 200px;
+		margin: auto;
+		margin-top: 49px;
+ 	}
+
+ 	.ion-ios-arrow-down{
+		font-size: 20px;
+		border: 1px solid grey;
+		border-radius: 50%;
+		margin: auto;
+		margin-top: 78px;
+		padding: 5px 9px;
+		margin-bottom: 30px;
+	}
+
+}
+
+section{
+	h3{
+		font-family: $font;
+		color: black;
+		font-size: 25px;
+		padding-top: 50px;
+	}
+
+	h4{
+		font-family: $font;
+		color: $colorh2;
+		font-size: 15px;
+		margin-top: -10px;
+	}
+}
+
+.introducing{
+	background:white;
+	.divintro{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		justify-content: space-around;
+		article{
+			max-width: 28%;
+			display: flex;
+			flex-direction: column;
+			align-items:center;
+			margin: 30px 0 90px 0;
+
+			div{
+				border: 5px solid black;
+				border-radius: 50%;
+				height: 90px;
+				width: 90px;
+				span{
+					font-size: 65px;
+					top: 5px;
+					left: 3px;
+					position: relative;
+					&.ion-planet{
+						top: 9px;
+						left: 1px;
+					}
+					&.ion-nuclear{
+						top: 6px;
+						left: 1px;
+					}
+				}
+			}
+			
+			h4{
+				color: black;
+				font-family: $font;
+				margin: 20px 0;
+			}
+			p{
+				width: 100%;
+				color: $colorh2;
+				font-size: 15px;
+				a{
+					color: $naranja;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	
+}
+
+.port div h3{
+		color: white;
+		font-weight: bold;
+}
+
+.port{
+	.divport{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-contet: center;
+		max-width: 30%;
+		article{
+			width: 100%;
+			color:white;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+}
